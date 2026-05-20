@@ -2,6 +2,9 @@
 
 File + Cat = filecat
 
+[![OpenCode Terminal UI](images/main_ui.png)](https://github.com/ligbyte/filecat)
+
+
 ## Getting Started
 
 ```shell
