@@ -1,6 +1,6 @@
 <div align="center">
   <p>
-    <img src="images\logo.png" alt="autojs6-banner_800×224" border="0" width="704" />
+    <img src="images\logo.png" border="0" width="70" />
   </p>
 
   <p>Filecat</p>
