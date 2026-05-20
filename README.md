@@ -6,7 +6,7 @@
   <p>Filecat</p>
 </div>
 
-[![OpenCode Terminal UI](images/main_ui.png)](https://github.com/ligbyte/filecat)
+[![Filecat UI](images/main_ui.png)](https://github.com/ligbyte/filecat)
 
 
 ## Getting Started
