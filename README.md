@@ -1,6 +1,6 @@
 <div align="center">
   <p>
-    <img src="images\logo.png" border="0" width="70" />
+    <img src="images\logo.png" border="0" width="100" />
   </p>
 
   <p>Filecat</p>
