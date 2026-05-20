@@ -1,6 +1,10 @@
-# filecat
+<div align="center">
+  <p>
+    <img src="images\logo.png" alt="autojs6-banner_800×224" border="0" width="704" />
+  </p>
 
-File + Cat = filecat
+  <p>Filecat</p>
+</div>
 
 [![OpenCode Terminal UI](images/main_ui.png)](https://github.com/ligbyte/filecat)
 
