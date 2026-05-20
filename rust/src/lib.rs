@@ -5,7 +5,7 @@ use std::ptr;
 use serde::{Deserialize, Serialize};
 use serde_json;
 use local_ip_address::local_ip;
-use actix_web::{web, App, HttpServer, Responder, dev::ServerHandle};
+use actix_web::{App, HttpServer, Responder, dev::ServerHandle};
 use actix_files;
 use once_cell::sync::Lazy;
 use std::sync::Mutex;
@@ -483,7 +483,7 @@ pub mod autostart {
         Ok(())
     }
 
-    pub fn is_enabled(app_name: &str) -> Result<bool, Box<dyn Error>> {
+    pub fn is_enabled(app_name: &str, _app_path: &Path) -> Result<bool, Box<dyn Error>> {
         let plist_path = home_dir()
             .ok_or("无法获取用户目录")?
             .join("Library")
@@ -529,7 +529,7 @@ pub mod autostart {
         Ok(())
     }
 
-    pub fn is_enabled(app_name: &str) -> Result<bool, Box<dyn Error>> {
+    pub fn is_enabled(app_name: &str, _app_path: &Path) -> Result<bool, Box<dyn Error>> {
         let xdg_dirs = BaseDirectories::with_prefix(app_name)?;
         if let Ok(path) = xdg_dirs.place_config_file("autostart") {
             let desktop_entry_path = path.join(format!("{}.desktop", app_name));
