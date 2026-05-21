@@ -100,5 +100,9 @@ com.alibabacloud.intellij.cosy (2.10.1)
 io.flutter (85.2.2)
 
 
+Linux下需要安装：
+sudo apt-get install libayatana-appindicator3-dev
+
+
 按下 Win + R键打开“运行”对话框。
 输入 firewall.cpl并按回车键，这将直接打开 Windows Defender 防火墙主界面。
